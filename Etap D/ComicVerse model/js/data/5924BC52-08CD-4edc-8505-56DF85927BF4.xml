@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.2.1.5:1", "", "Tworzenie konta w systemie", "EARoot/EA1/EA2/EA1/EA5/EA89.htm", "175.png", "439", "0", "", "Logical diagram0","{FFE8C4E9-8285-412d-BB16-2B55F6AB0910}");
+tocTab[tocTab.length] = new Array("0.1.2.1.5:2", "", "«boundary» Formularz_Klient_Weryfikuj_konto", "EARoot/EA1/EA2/EA1/EA5/EA92.htm", "5.png", "E2501", "0", "", "Class0","{BD1597B6-FDF8-4117-8623-4CA803ACEDE7}");
+tocTab[tocTab.length] = new Array("0.1.2.1.5:3", "", "«boundary» Formularz_Klient_Wprowadz_dane_rejestracyjne", "EARoot/EA1/EA2/EA1/EA5/EA93.htm", "5.png", "E2502", "0", "", "Class0","{3F9E0B5B-6870-4132-BC0C-E694D302F587}");
+tocTab[tocTab.length] = new Array("0.1.2.1.5:4", "", "«boundary» Formularz_Klient_zapisz_sie_do_newslettera", "EARoot/EA1/EA2/EA1/EA5/EA94.htm", "5.png", "E2500", "0", "", "Class0","{678FF09A-2CD0-4a92-92B1-827E2CD0A073}");

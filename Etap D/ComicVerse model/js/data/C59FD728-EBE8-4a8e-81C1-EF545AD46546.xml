@@ -1,0 +1,13 @@
+tocTab[tocTab.length] = new Array("0.1.3.2:1", "", "Tworzenie konta w systemie", "EARoot/EA1/EA3/EA2/EA228.htm", "180.png", "422", "0", "", "Use Case diagram0","{67FBC27C-E05A-47fc-9DC2-6F13A85046AC}");
+tocTab[tocTab.length] = new Array("0.1.3.2:8", "", "Utwórz konto użytkownika", "EARoot/EA1/EA3/EA2/EA243.htm", "60.png", "E2388", "0", "", "Collaboration0","{CC397CAD-5629-4370-BC9F-3BC7263205E1}");
+tocTab[tocTab.length] = new Array("0.1.3.2:9", "", "Weryfikuj konto", "EARoot/EA1/EA3/EA2/EA244.htm", "60.png", "E2389", "0", "", "Collaboration0","{9A2C20EB-A1F4-497a-933E-2DD6616C7CDF}");
+tocTab[tocTab.length] = new Array("0.1.3.2:10", "", "Zapisz się do newslettera", "EARoot/EA1/EA3/EA2/EA245.htm", "60.png", "E2387", "0", "", "Collaboration0","{D3FF9D73-E4A6-4c35-B138-C940CE163891}");
+tocTab[tocTab.length] = new Array("0.1.3.2:3", "", "VOPC:Utwórz konto użytkownika", "EARoot/EA1/EA3/EA2/EA232.htm", "175.png", "482", "E2388", "", "Logical diagram0","{BA3C0D91-4312-4671-B7D5-64C491454772}");
+tocTab[tocTab.length] = new Array("0.1.3.2:4", "", "VOPC:Weryfikuj konto", "EARoot/EA1/EA3/EA2/EA234.htm", "175.png", "483", "E2389", "", "Logical diagram0","{B9D38890-3D61-4c37-A662-E8B8CDB7AEB3}");
+tocTab[tocTab.length] = new Array("0.1.3.2:5", "", "VOPC:Zapisz się do newslettera", "EARoot/EA1/EA3/EA2/EA236.htm", "175.png", "484", "E2387", "", "Logical diagram0","{BB84BCA3-E88D-47c7-B735-750F715F812B}");
+tocTab[tocTab.length] = new Array("0.1.3.2:11", "", "Zapisz sie do newslettera", "EARoot/EA1/EA3/EA2/EA246.htm", "207.png", "E2627", "E2387", "", "Interaction0","{7997B3C7-3712-4033-A13A-05B9E6B7058B}");
+tocTab[tocTab.length] = new Array("0.1.3.2:12", "", "Utworz konto uzytkownika", "EARoot/EA1/EA3/EA2/EA247.htm", "207.png", "E2625", "E2388", "", "Interaction0","{7B661FC3-F051-4e34-BE27-3B787AB1171B}");
+tocTab[tocTab.length] = new Array("0.1.3.2:13", "", "Weryfikuj konto", "EARoot/EA1/EA3/EA2/EA248.htm", "207.png", "E2626", "E2389", "", "Interaction0","{C093EF24-48CA-410f-8976-44F75F647782}");
+tocTab[tocTab.length] = new Array("0.1.3.2:2", "", "Utworz konto uzytkownika", "EARoot/EA1/EA3/EA2/EA230.htm", "185.png", "462", "E2625", "", "Sequence diagram0","{74A8CD2F-395B-47be-AF6F-02B5D6BFDED1}");
+tocTab[tocTab.length] = new Array("0.1.3.2:6", "", "Weryfikuj konto", "EARoot/EA1/EA3/EA2/EA238.htm", "185.png", "463", "E2626", "", "Sequence diagram0","{21A7F616-EE4A-41c8-94BE-9D533A270B6C}");
+tocTab[tocTab.length] = new Array("0.1.3.2:7", "", "Zapisz sie do newslettera", "EARoot/EA1/EA3/EA2/EA240.htm", "185.png", "464", "E2627", "", "Sequence diagram0","{925D4B94-DFB1-40a4-A3B0-45FF5D25E059}");

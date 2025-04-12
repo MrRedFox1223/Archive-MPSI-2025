@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.3.4:2", "", "Zarządzanie katalogiem produktów", "EARoot/EA1/EA3/EA4/EA266.htm", "180.png", "430", "0", "", "Use Case diagram0","{63A4B7A2-71F2-41ae-BA9D-1198B757448E}");
+tocTab[tocTab.length] = new Array("0.1.3.4:4", "", "Zmodyfikuj produkt", "EARoot/EA1/EA3/EA4/EA271.htm", "60.png", "E2434", "0", "", "Collaboration0","{55255CB0-8B16-4243-BA4D-A1DAABC032DA}");
+tocTab[tocTab.length] = new Array("0.1.3.4:1", "", "VOPC:Zmodyfikuj produkt", "EARoot/EA1/EA3/EA4/EA264.htm", "175.png", "487", "E2434", "", "Logical diagram0","{C4FE5085-C99A-4bc5-8D95-69A8DBACFE51}");
+tocTab[tocTab.length] = new Array("0.1.3.4:5", "", "Zmodyfikuj produkt", "EARoot/EA1/EA3/EA4/EA272.htm", "207.png", "E2630", "E2434", "", "Interaction0","{7A9031DD-8EA2-4e55-BD82-05B86E0C0264}");
+tocTab[tocTab.length] = new Array("0.1.3.4:3", "", "Zmodyfikuj produkt", "EARoot/EA1/EA3/EA4/EA268.htm", "185.png", "467", "E2630", "", "Sequence diagram0","{01E8D6F1-30CB-4bca-925E-198EED815A41}");

@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.2.2.4:1", "", "Obsluga sklepu internetowego", "EARoot/EA1/EA2/EA2/EA4/EA115.htm", "175.png", "440", "0", "", "Logical diagram0","{E2D13A2A-B724-46c2-9C7C-8D7E646B2980}");
+tocTab[tocTab.length] = new Array("0.1.2.2.4:2", "", "«control» Sterowanie_produktami_w_koszyku", "EARoot/EA1/EA2/EA2/EA4/EA118.htm", "5.png", "E2506", "0", "", "Class0","{05EF5264-61A0-4eb1-8966-640ACF6777D2}");
+tocTab[tocTab.length] = new Array("0.1.2.2.4:3", "", "«control» Sterowanie_przegladaniem_produktów", "EARoot/EA1/EA2/EA2/EA4/EA119.htm", "5.png", "E2504", "0", "", "Class0","{6FD7792B-FA4F-4c99-A6DD-BA0F3621B2E9}");
+tocTab[tocTab.length] = new Array("0.1.2.2.4:4", "", "«control» Sterowanie_zamowieniami", "EARoot/EA1/EA2/EA2/EA4/EA120.htm", "5.png", "E2505", "0", "", "Class0","{EEFCA71D-53BA-41d6-94E0-4E06FD81F468}");

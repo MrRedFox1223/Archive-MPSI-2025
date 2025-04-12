@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.1.2.1.3:1", "", "Zarzadzanie kontem", "EARoot/EA1/EA2/EA1/EA3/EA69.htm", "175.png", "447", "0", "", "Logical diagram0","{7DC80E2E-6D2E-4d84-BB4E-A652EB9F9D37}");
+tocTab[tocTab.length] = new Array("0.1.2.1.3:2", "", "«boundary» Formularz_Uzytkownik_Przegladaj_zamowienia_archiwalne", "EARoot/EA1/EA2/EA1/EA3/EA72.htm", "5.png", "E2532", "0", "", "Class0","{68A79A38-4427-41aa-B5AC-5C2643A37D9D}");
+tocTab[tocTab.length] = new Array("0.1.2.1.3:3", "", "«boundary» Formularz_Uzytkownik_Sprawdz_kody_rabatowe", "EARoot/EA1/EA2/EA1/EA3/EA73.htm", "5.png", "E2535", "0", "", "Class0","{8BB9D10E-5241-40f8-B01B-C14775CAABEF}");
+tocTab[tocTab.length] = new Array("0.1.2.1.3:4", "", "«boundary» Formularz_Uzytkownik_Sprawdz_status_zamowienia", "EARoot/EA1/EA2/EA1/EA3/EA74.htm", "5.png", "E2534", "0", "", "Class0","{F839D433-077B-4506-840E-D6B486FFDB9A}");
+tocTab[tocTab.length] = new Array("0.1.2.1.3:5", "", "«boundary» Formularz_Uzytkownik_Wypisz_sie_z_newslettera", "EARoot/EA1/EA2/EA1/EA3/EA75.htm", "5.png", "E2536", "0", "", "Class0","{66D8BB17-D443-4ce6-AEAB-620440226082}");
+tocTab[tocTab.length] = new Array("0.1.2.1.3:6", "", "«boundary» Formularz_Uzytkownik_Zapisz_sie_do_newslettera", "EARoot/EA1/EA2/EA1/EA3/EA76.htm", "5.png", "E2537", "0", "", "Class0","{CB3D1EE5-AFF1-4a00-BE3A-95EB7EF4026C}");

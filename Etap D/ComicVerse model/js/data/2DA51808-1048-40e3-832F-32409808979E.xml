@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.2.2.2:1", "", "Zarzadzanie katalogiem produktow", "EARoot/EA1/EA2/EA2/EA2/EA107.htm", "175.png", "446", "0", "", "Logical diagram0","{8D6D67BD-C11D-4c46-A677-1B69223E64BB}");
+tocTab[tocTab.length] = new Array("0.1.2.2.2:2", "", "«control» Sterowanie_modyfikuj_produkt", "EARoot/EA1/EA2/EA2/EA2/EA110.htm", "5.png", "E2531", "0", "", "Class0","{A4F15E2F-CF51-416c-9FF7-B75A9E1A341B}");

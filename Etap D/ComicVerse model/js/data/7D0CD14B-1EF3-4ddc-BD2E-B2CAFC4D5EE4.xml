@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.2.2.1:1", "", "Tworzenie raportu sprzedazowego", "EARoot/EA1/EA2/EA2/EA1/EA103.htm", "175.png", "445", "0", "", "Logical diagram0","{CF6EFA78-11D5-4ce0-B73C-129F64888E4A}");
+tocTab[tocTab.length] = new Array("0.1.2.2.1:2", "", "«control» Sterowanie_raportem_sprzedazy", "EARoot/EA1/EA2/EA2/EA1/EA106.htm", "5.png", "E2527", "0", "", "Class0","{4AB7AD1B-A2E3-4540-B6D9-332511E5368B}");

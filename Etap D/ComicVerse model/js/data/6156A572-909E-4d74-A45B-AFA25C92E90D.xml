@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.1.2.2:1", "", "Logika aplikacyjna", "EARoot/EA1/EA2/EA2/EA95.htm", "175.png", "389", "0", "", "Logical diagram0","{2F41B1C7-1622-4b69-AEBC-60341B48D9BF}");
+tocTab[tocTab.length] = new Array("0.1.2.2.1", "1", "Tworzenie raportu sprzedazowego", "EARoot/EA1/EA2/EA2/EA1/EA105.htm", "4.png", "", "", "{7D0CD14B-1EF3-4ddc-BD2E-B2CAFC4D5EE4}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.2", "1", "Zarzadzanie katalogiem produktow", "EARoot/EA1/EA2/EA2/EA2/EA109.htm", "4.png", "", "", "{2DA51808-1048-40e3-832F-32409808979E}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.3", "1", "Zarzadzanie kontem", "EARoot/EA1/EA2/EA2/EA3/EA113.htm", "4.png", "", "", "{DF7E6B36-5864-487c-9CC7-55298AAD8FDA}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.4", "1", "Obsluga sklepu internetowego", "EARoot/EA1/EA2/EA2/EA4/EA117.htm", "4.png", "", "", "{8E256F55-4D60-461a-80D4-9813421904B9}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.5", "1", "Tworzenie konta w systemie", "EARoot/EA1/EA2/EA2/EA5/EA123.htm", "4.png", "", "", "{FB51DEFB-8BAA-4bc6-8C3F-33EA8164FF24}", "Package");

@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.1.2:1", "", "Klasy analityczne - Obsługa sklepu internetowego", "EARoot/EA1/EA2/EA38.htm", "175.png", "513", "0", "", "Logical diagram0","{A741B1D0-2D13-4612-AC50-6593C98C879F}");
+tocTab[tocTab.length] = new Array("0.1.2:2", "", "Klasy analityczne - Tworzenie konta w systemie", "EARoot/EA1/EA2/EA40.htm", "175.png", "514", "0", "", "Logical diagram0","{C072AC57-E7E1-4c66-B552-078C2C9A78B7}");
+tocTab[tocTab.length] = new Array("0.1.2:3", "", "Klasy analityczne - Tworzenie raportu sprzedażowego", "EARoot/EA1/EA2/EA42.htm", "175.png", "515", "0", "", "Logical diagram0","{21F8FAAE-19D2-42f4-A24E-E69597EC99F6}");
+tocTab[tocTab.length] = new Array("0.1.2:4", "", "Klasy analityczne - Zarządzanie katalogiem produktów", "EARoot/EA1/EA2/EA44.htm", "175.png", "516", "0", "", "Logical diagram0","{F55ABC76-C14E-473c-9916-24C0A37FBA64}");
+tocTab[tocTab.length] = new Array("0.1.2:5", "", "Klasy analityczne - Zarządzanie kontem", "EARoot/EA1/EA2/EA46.htm", "175.png", "517", "0", "", "Logical diagram0","{F796E2C9-AC8D-43f7-B201-3B41F2EBF724}");
+tocTab[tocTab.length] = new Array("0.1.2.1", "1", "Interfejsy", "EARoot/EA1/EA2/EA1/EA54.htm", "4.png", "", "", "{DFBE811E-6B40-40fc-8CBB-A4413B3C3748}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2", "1", "Logika aplikacyjna", "EARoot/EA1/EA2/EA2/EA97.htm", "4.png", "", "", "{6156A572-909E-4d74-A45B-AFA25C92E90D}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.3", "1", "Dane", "EARoot/EA1/EA2/EA3/EA127.htm", "4.png", "", "", "{923E6507-102F-4128-B07B-C3188D7D35C7}", "Package");

@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.1.3:1", "", "Tworzenie raportu sprzedażowego", "EARoot/EA1/EA1/EA3/EA26.htm", "175.png", "394", "0", "", "Logical diagram0","{D92A05A3-C29C-4b15-B8A1-1E44D90726AF}");
+tocTab[tocTab.length] = new Array("0.1.1.3:2", "", "«Type» Generator raportów sprzedażowych", "EARoot/EA1/EA1/EA3/EA29.htm", "5.png", "E2246", "0", "", "Class0","{77B413C1-7933-47a5-A0BE-B8FA471C817E}");
+tocTab[tocTab.length] = new Array("0.1.1.3:3", "", "«Type» Menadżer", "EARoot/EA1/EA1/EA3/EA30.htm", "5.png", "E2245", "0", "", "Class0","{B7827832-1599-4c01-BF7B-106CBDBE4F79}");

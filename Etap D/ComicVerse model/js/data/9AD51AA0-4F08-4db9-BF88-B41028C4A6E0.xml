@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.1.1:1", "", "«Type» Administrator", "EARoot/EA1/EA1/EA6.htm", "5.png", "E2238", "0", "", "Class0","{CA74C6FA-4CDB-41ce-BCE3-62BFD2963C1D}");
+tocTab[tocTab.length] = new Array("0.1.1:2", "", "«Type» Klient", "EARoot/EA1/EA1/EA7.htm", "5.png", "E2235", "0", "", "Class0","{5F21AD87-BBBE-4396-B47E-1BCE3B4A58C7}");
+tocTab[tocTab.length] = new Array("0.1.1:3", "", "«Type» Osoba", "EARoot/EA1/EA1/EA9.htm", "5.png", "E2237", "0", "", "Class0","{8CC880A5-B555-4f33-B828-67F02DE2193D}");
+tocTab[tocTab.length] = new Array("0.1.1:4", "", "«Type» Produkt", "EARoot/EA1/EA1/EA10.htm", "5.png", "E2242", "0", "", "Class0","{A8E16650-0CBA-49d5-A877-C3CF5205FCED}");
+tocTab[tocTab.length] = new Array("0.1.1:5", "", "«Type» Użytkownik", "EARoot/EA1/EA1/EA13.htm", "5.png", "E2236", "0", "", "Class0","{59D10856-5B0A-4380-9EF1-DA1DA7540467}");
+tocTab[tocTab.length] = new Array("0.1.1:6", "", "«Type» Zamówienie", "EARoot/EA1/EA1/EA14.htm", "5.png", "E2241", "0", "", "Class0","{AC233CCA-96C0-4a1b-8C35-C3631852D62F}");
+tocTab[tocTab.length] = new Array("0.1.1.1", "1", "Obsługa sklepu internetowego", "EARoot/EA1/EA1/EA1/EA19.htm", "4.png", "", "", "{DD9163CD-8F4B-4223-B98F-CA395957783B}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.2", "1", "Tworzenie konta w systemie", "EARoot/EA1/EA1/EA2/EA24.htm", "4.png", "", "", "{317EE5C3-8638-4e61-8437-6623226A8874}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.3", "1", "Tworzenie raportu sprzedażowego", "EARoot/EA1/EA1/EA3/EA28.htm", "4.png", "", "", "{0AB9245C-284F-44f6-90C7-CAA129FA2F73}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.4", "1", "Zarządzanie katalogiem produktów", "EARoot/EA1/EA1/EA4/EA33.htm", "4.png", "", "", "{B6E93272-97C4-4e99-80AD-F80B9AC9EA81}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.5", "1", "Zarządzanie kontem", "EARoot/EA1/EA1/EA5/EA36.htm", "4.png", "", "", "{57C41D52-2A43-4c6e-81E0-14376CC41DA5}", "Package");

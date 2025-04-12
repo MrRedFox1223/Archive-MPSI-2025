@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.1.5:1", "", "Zarządzanie kontem", "EARoot/EA1/EA1/EA5/EA34.htm", "175.png", "396", "0", "", "Logical diagram0","{2BD6E814-51E2-4845-AD84-C3809A8877B1}");
+tocTab[tocTab.length] = new Array("0.1.1.5:2", "", "«Type» Panel zarządzania kontem", "EARoot/EA1/EA1/EA5/EA37.htm", "5.png", "E2319", "0", "", "Class0","{D4343052-FBED-468b-ADF3-1AA9CA2F886F}");

@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.1.3.3:2", "", "Tworzenie raportu sprzedażowego", "EARoot/EA1/EA3/EA3/EA251.htm", "180.png", "429", "0", "", "Use Case diagram0","{2933E34D-7266-438f-839F-6C42E3E6F612}");
+tocTab[tocTab.length] = new Array("0.1.3.3:6", "", "Generuj raport sprzedażowy", "EARoot/EA1/EA3/EA3/EA260.htm", "60.png", "E2413", "0", "", "Collaboration0","{8CFC750A-19A1-4128-AA78-44BDDDDC9CB5}");
+tocTab[tocTab.length] = new Array("0.1.3.3:7", "", "Zapisz raport", "EARoot/EA1/EA3/EA3/EA261.htm", "60.png", "E2414", "0", "", "Collaboration0","{69DB3F28-35C9-42aa-9380-214BCD02C981}");
+tocTab[tocTab.length] = new Array("0.1.3.3:3", "", "VOPC:Generuj raport sprzedażowy", "EARoot/EA1/EA3/EA3/EA253.htm", "175.png", "485", "E2413", "", "Logical diagram0","{06D1D56B-9972-4ceb-A6AF-808881B500DB}");
+tocTab[tocTab.length] = new Array("0.1.3.3:4", "", "VOPC:Zapisz raport", "EARoot/EA1/EA3/EA3/EA255.htm", "175.png", "486", "E2414", "", "Logical diagram0","{A80AD577-2E4B-4010-826D-E97D3B34D38F}");
+tocTab[tocTab.length] = new Array("0.1.3.3:8", "", "Generuj raport sprzedazowy", "EARoot/EA1/EA3/EA3/EA262.htm", "207.png", "E2628", "E2413", "", "Interaction0","{A5F376A2-0293-4f5d-8B31-8E9B30E35412}");
+tocTab[tocTab.length] = new Array("0.1.3.3:9", "", "Zapisz raport", "EARoot/EA1/EA3/EA3/EA263.htm", "207.png", "E2629", "E2414", "", "Interaction0","{E3F3DB8B-10CA-4a65-9529-25678F7EDB14}");
+tocTab[tocTab.length] = new Array("0.1.3.3:1", "", "Generuj raport sprzedazowy", "EARoot/EA1/EA3/EA3/EA249.htm", "185.png", "465", "E2628", "", "Sequence diagram0","{6D2662A1-6F1F-4055-BA0C-6E366C9582ED}");
+tocTab[tocTab.length] = new Array("0.1.3.3:5", "", "Zapisz raport", "EARoot/EA1/EA3/EA3/EA257.htm", "185.png", "466", "E2629", "", "Sequence diagram0","{86CB40AC-4123-4b80-816F-8F24AE34E2AE}");

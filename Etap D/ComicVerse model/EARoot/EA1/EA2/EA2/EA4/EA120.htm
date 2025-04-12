@@ -1,0 +1,601 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Obsluga sklepu internetowego::Sterowanie_zamowieniami</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Sterowanie_zamowieniami", " : "))</script> CLA:041:Wysokinski : Public  &lt;&lt;control&gt;&gt; Class</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2025-03-16 15:06:03</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">2025-03-16 15:06:03</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Konrad Wysokinski</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{EEFCA71D-53BA-41d6-94E0-4E06FD81F468}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA115.htm">Obsluga sklepu internetowego</a>, <a href="../../../EA3/EA1/EA177.htm">Cofnij zamówienie</a>, <a href="../../../EA3/EA1/EA179.htm">Dodaj notatke do zamowienia</a>, <a href="../../../EA3/EA1/EA183.htm">Manualnie zmien stan zamowienia</a>, <a href="../../../EA3/EA1/EA207.htm">Zloz zamowienie</a>, <a href="../../../EA3/EA1/EA209.htm">Zrealizuj zamowienie</a>, <a href="../../../EA3/EA1/EA191.htm">VOPC:Cofnij zamówienie</a>, <a href="../../../EA3/EA1/EA193.htm">VOPC:Dodaj notatkę do zamówienia</a>, <a href="../../../EA3/EA1/EA197.htm">VOPC:Manualnie zmień stan zamówienia.</a>, <a href="../../../EA3/EA1/EA203.htm">VOPC:Złóż zamówienie</a>, <a href="../../../EA3/EA1/EA205.htm">VOPC:Zrealizuj zamówienie</a>, <a href="../../EA38.htm">Klasy analityczne - Obsługa sklepu internetowego</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+		</ul>
+<div class="ItemBody" id="OperationsTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Operation</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>administruj_zamowienie</strong>():void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations180" onclick="parent.toggleDiv('detailsDIVOperations180','DetailsImageOperations180')" />Details:
+						<div id="detailsDIVOperations180" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>cofnij_zamowienie</strong>():void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations181" onclick="parent.toggleDiv('detailsDIVOperations181','DetailsImageOperations181')" />Details:
+						<div id="detailsDIVOperations181" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>dodaj_notatke</strong>():void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations182" onclick="parent.toggleDiv('detailsDIVOperations182','DetailsImageOperations182')" />Details:
+						<div id="detailsDIVOperations182" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>pobierz_zamowienie</strong>():void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations183" onclick="parent.toggleDiv('detailsDIVOperations183','DetailsImageOperations183')" />Details:
+						<div id="detailsDIVOperations183" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>zloz_zamowienie</strong>():void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations184" onclick="parent.toggleDiv('detailsDIVOperations184','DetailsImageOperations184')" />Details:
+						<div id="detailsDIVOperations184" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>zmien_stan_zamowienia</strong>():void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations185" onclick="parent.toggleDiv('detailsDIVOperations185','DetailsImageOperations185')" />Details:
+						<div id="detailsDIVOperations185" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>zrealizuj_zamowienie</strong>():void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations186" onclick="parent.toggleDiv('detailsDIVOperations186','DetailsImageOperations186')" />Details:
+						<div id="detailsDIVOperations186" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+
+		</table>
+</div>		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA1/EA4/EA87.htm">«boundary» Formularz_Klient_Zloz_zamówienie</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink187" onclick="parent.toggleDiv('detailsDIVLink187','DetailsImageLink187')" />Details:
+							<div id="detailsDIVLink187" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA1/EA4/EA83.htm">«boundary» Formularz_Administrator_manualnie_zmien_stan_zamowienia</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink188" onclick="parent.toggleDiv('detailsDIVLink188','DetailsImageLink188')" />Details:
+							<div id="detailsDIVLink188" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA1/EA4/EA82.htm">«boundary» Formularz_Administrator_Dodaj_notatke_do_zamowienia</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink189" onclick="parent.toggleDiv('detailsDIVLink189','DetailsImageLink189')" />Details:
+							<div id="detailsDIVLink189" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA1/EA4/EA81.htm">«boundary» Formularz_Administrator_Cofnij_zamowienie</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink190" onclick="parent.toggleDiv('detailsDIVLink190','DetailsImageLink190')" />Details:
+							<div id="detailsDIVLink190" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA1/EA4/EA88.htm">«boundary» Formularz_pracownik_zrealizuj_zamowienie</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink191" onclick="parent.toggleDiv('detailsDIVLink191','DetailsImageLink191')" />Details:
+							<div id="detailsDIVLink191" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA3/EA1/EA142.htm">«Type» Zamówienie</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink192" onclick="parent.toggleDiv('detailsDIVLink192','DetailsImageLink192')" />Details:
+							<div id="detailsDIVLink192" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA3/EA1/EA142.htm">«Type» Zamówienie</a></td>
+					<td width="50%" class="TableRow" valign="top">zapisz_zamowienie_po_zmianach()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage193" onclick="parent.toggleDiv('detailsDIVMessage193', 'DetailsImageMessage193')" />Details:
+							<div id="detailsDIVMessage193" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA3/EA1/EA142.htm">«Type» Zamówienie</a></td>
+					<td width="50%" class="TableRow" valign="top">cofnij_zamowienie()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage194" onclick="parent.toggleDiv('detailsDIVMessage194', 'DetailsImageMessage194')" />Details:
+							<div id="detailsDIVMessage194" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA3/EA1/EA142.htm">«Type» Zamówienie</a></td>
+					<td width="50%" class="TableRow" valign="top">zapisz_zamowienie_po_zmianach()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage195" onclick="parent.toggleDiv('detailsDIVMessage195', 'DetailsImageMessage195')" />Details:
+							<div id="detailsDIVMessage195" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA3/EA1/EA142.htm">«Type» Zamówienie</a></td>
+					<td width="50%" class="TableRow" valign="top">zapisz_nowe_zamowienie()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage196" onclick="parent.toggleDiv('detailsDIVMessage196', 'DetailsImageMessage196')" />Details:
+							<div id="detailsDIVMessage196" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA3/EA1/EA142.htm">«Type» Zamówienie</a></td>
+					<td width="50%" class="TableRow" valign="top">zapisz_zamowienie_po_zmianach()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage197" onclick="parent.toggleDiv('detailsDIVMessage197', 'DetailsImageMessage197')" />Details:
+							<div id="detailsDIVMessage197" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA82.htm">«boundary» Formularz_Administrator_Dodaj_notatke_do_zamowienia</a></td>
+					<td width="50%" class="TableRow" valign="top">dodaj_notatke()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage198" onclick="parent.toggleDiv('detailsDIVMessage198', 'DetailsImageMessage198')" />Details:
+							<div id="detailsDIVMessage198" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA87.htm">«boundary» Formularz_Klient_Zloz_zamówienie</a></td>
+					<td width="50%" class="TableRow" valign="top">zloz_zamowienie()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage199" onclick="parent.toggleDiv('detailsDIVMessage199', 'DetailsImageMessage199')" />Details:
+							<div id="detailsDIVMessage199" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA88.htm">«boundary» Formularz_pracownik_zrealizuj_zamowienie</a></td>
+					<td width="50%" class="TableRow" valign="top">zrealizuj_zamowienie()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage200" onclick="parent.toggleDiv('detailsDIVMessage200', 'DetailsImageMessage200')" />Details:
+							<div id="detailsDIVMessage200" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA83.htm">«boundary» Formularz_Administrator_manualnie_zmien_stan_zamowienia</a></td>
+					<td width="50%" class="TableRow" valign="top">zmien_stan_zamowienia()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage201" onclick="parent.toggleDiv('detailsDIVMessage201', 'DetailsImageMessage201')" />Details:
+							<div id="detailsDIVMessage201" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA81.htm">«boundary» Formularz_Administrator_Cofnij_zamowienie</a></td>
+					<td width="50%" class="TableRow" valign="top">cofnij_zamowienie()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage202" onclick="parent.toggleDiv('detailsDIVMessage202', 'DetailsImageMessage202')" />Details:
+							<div id="detailsDIVMessage202" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

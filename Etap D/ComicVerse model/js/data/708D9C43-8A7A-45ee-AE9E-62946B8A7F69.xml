@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "Raport", "EARoot/EA2/EA306.htm", "188.png", "512", "0", "", "Custom diagram0","{F4FE648E-A600-4116-B6F5-8F3818300838}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "«Document» Raport walidacji - Obsługa sklepu internetowego", "EARoot/EA2/EA309.htm", "82.png", "E2804", "0", "", "Artifact0","{FCACB379-DCCE-46fd-B64D-158BEBD5474A}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "«Document» Raport walidacji - Tworzenie konta w systemie", "EARoot/EA2/EA310.htm", "82.png", "E2802", "0", "", "Artifact0","{6DBF8232-9066-419a-8783-6EFA42F365D4}");
+tocTab[tocTab.length] = new Array("0.2:4", "", "«Document» Raport walidacji - Tworzenie raportu sprzedażowego", "EARoot/EA2/EA311.htm", "82.png", "E2799", "0", "", "Artifact0","{B0825C7F-9753-45c8-9D26-1DFDDFF1C7A1}");
+tocTab[tocTab.length] = new Array("0.2:5", "", "«Document» Raport walidacji - Zarządzanie katalogiem produktów", "EARoot/EA2/EA312.htm", "82.png", "E2806", "0", "", "Artifact0","{B033F6E5-421C-4434-9727-071351FBCA34}");
+tocTab[tocTab.length] = new Array("0.2:6", "", "«Document» Raport walidacji - Zarządzanie kontem", "EARoot/EA2/EA313.htm", "82.png", "E2808", "0", "", "Artifact0","{9541DEB2-E2D7-404f-B47C-5E6F5AC18647}");

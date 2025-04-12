@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.1.2.3.2:1", "", "Tworzenie konta w systemie", "EARoot/EA1/EA2/EA3/EA2/EA143.htm", "175.png", "449", "0", "", "Logical diagram0","{564465BB-EDFF-4baa-AFBB-4F0DFF8F969F}");
+tocTab[tocTab.length] = new Array("0.1.2.3.2:2", "", "«Type» Administrator", "EARoot/EA1/EA2/EA3/EA2/EA146.htm", "5.png", "E2599", "0", "", "Class0","{DF2EF74D-D7B8-40e5-A76D-BB19AE339C88}");
+tocTab[tocTab.length] = new Array("0.1.2.3.2:3", "", "«type» Folmularz rejestracyjny", "EARoot/EA1/EA2/EA3/EA2/EA147.htm", "5.png", "E2600", "0", "", "Class0","{011D76B4-4C03-43d1-9CB6-528F97C6233F}");
+tocTab[tocTab.length] = new Array("0.1.2.3.2:4", "", "«Type» Klient", "EARoot/EA1/EA2/EA3/EA2/EA148.htm", "5.png", "E2601", "0", "", "Class0","{13B3C0FA-D49D-40d7-8E6C-3886FB58F4CA}");
+tocTab[tocTab.length] = new Array("0.1.2.3.2:5", "", "«Type» Osoba", "EARoot/EA1/EA2/EA3/EA2/EA149.htm", "5.png", "E2602", "0", "", "Class0","{83741758-86EA-4414-95BD-7FEDBFD91673}");
+tocTab[tocTab.length] = new Array("0.1.2.3.2:6", "", "«Type» Pracownik", "EARoot/EA1/EA2/EA3/EA2/EA150.htm", "5.png", "E2603", "0", "", "Class0","{284D964B-49E2-4c38-B11F-CBB0FC8F3723}");
+tocTab[tocTab.length] = new Array("0.1.2.3.2:7", "", "«Type» Użytkownik", "EARoot/EA1/EA2/EA3/EA2/EA151.htm", "5.png", "E2604", "0", "", "Class0","{F84481E3-DC64-4e91-9D2D-442CFD40E04D}");
+tocTab[tocTab.length] = new Array("0.1.2.3.2:8", "", "«Type» Zamówienie", "EARoot/EA1/EA2/EA3/EA2/EA152.htm", "5.png", "E2605", "0", "", "Class0","{616F732B-94F3-4b13-9468-8DD33FE21CD9}");

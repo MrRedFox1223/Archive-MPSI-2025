@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.1.1:1", "", "Obsługa sklepu internetowego", "EARoot/EA1/EA1/EA1/EA17.htm", "175.png", "392", "0", "", "Logical diagram0","{8650B7FE-9830-4926-8B94-57C3E61A4DE5}");
+tocTab[tocTab.length] = new Array("0.1.1.1:2", "", "«Type» Pracownik", "EARoot/EA1/EA1/EA1/EA20.htm", "5.png", "E2239", "0", "", "Class0","{DF7497AA-C4E2-4a66-BF76-1058749F3C42}");
+tocTab[tocTab.length] = new Array("0.1.1.1:3", "", "Sposób dostawy", "EARoot/EA1/EA1/EA1/EA21.htm", "247.png", "E2243", "0", "", "Enumeration0","{17FFCF4F-4E97-4f00-AEDE-02BBBAD90DB5}");

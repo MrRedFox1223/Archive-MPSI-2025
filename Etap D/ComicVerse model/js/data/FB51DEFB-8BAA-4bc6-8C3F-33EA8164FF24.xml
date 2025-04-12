@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.2.2.5:1", "", "Tworzenie konta w systemie", "EARoot/EA1/EA2/EA2/EA5/EA121.htm", "175.png", "441", "0", "", "Logical diagram0","{645F77E5-6DD6-45a4-A613-DE4B38D900D6}");
+tocTab[tocTab.length] = new Array("0.1.2.2.5:2", "", "«control» Sterowanie_kontem", "EARoot/EA1/EA2/EA2/EA5/EA124.htm", "5.png", "E2511", "0", "", "Class0","{3E8CE4CE-3DC4-4c44-895E-D341BFCF553C}");

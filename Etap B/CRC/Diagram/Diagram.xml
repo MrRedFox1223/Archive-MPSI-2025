@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="99CA8B23-A" name="ComicVerse-CRC" version="1.0" notes="ComicVerse-CRC"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Struktura dziedziny" notes="" cx="90" cy="70">
+				<AppliesTo>
+					<Apply type="DiagramLogical"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Sesja CRC" notes="" cx="90" cy="70">
+				<AppliesTo>
+					<Apply type="DiagramSequence"/>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

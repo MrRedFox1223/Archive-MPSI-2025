@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Generuj raport sprzedażowy</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Generuj raport sprzedażowy", " : "))</script> USE:004:Żmuda : Public   Collaborate</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2025-03-16 14:43:35</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">2025-03-16 14:43:47</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Jan Żmuda</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{8CFC750A-19A1-4128-AA78-44BDDDDC9CB5}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA251.htm">Tworzenie raportu sprzedażowego</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Generuj raport sprzeda&#380;owy z danego okresu czasu&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						Menadżer<br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink411" onclick="parent.toggleDiv('detailsDIVLink411','DetailsImageLink411')" />Details:
+							<div id="detailsDIVLink411" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Menadżer ma uprawnienia do korzystania z systemu</td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints412" onclick="parent.toggleDiv('detailsDIVConstraints412','DetailsImageConstraints412')" />Details:
+							<div id="detailsDIVConstraints412" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Wyświetla się wygenerowany raport</td>
+					<td width="10%" class="TableRow">Post-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints413" onclick="parent.toggleDiv('detailsDIVConstraints413','DetailsImageConstraints413')" />Details:
+							<div id="detailsDIVConstraints413" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Basic path</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario414" onclick="parent.toggleDiv('detailsDIVScenario414','DetailsImageScenario414')" />Details:
+							<div id="detailsDIVScenario414" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario414" onclick="parent.toggleDiv('stepDIVScenario414','StepImageScenario414')" />Steps:
+							<div id="stepDIVScenario414" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. System wy&#347;wietla formularz logowania do panelu Menad&#380;era.&lt;br/&gt; <br />2. Menad&#380;er wprowadza dane do logowania.&lt;br/&gt; <br />3. System weryfikuje dane logowania menad&#380;era i wy&#347;wietla opcje menad&#380;era.&lt;br/&gt; <br />4. Menad&#380;er wybiera opcj&#281; generowania raportu sprzeda&#380;owego.&lt;br/&gt; <br />5. System wy&#347;wietla opcj&#281; do generowania raportu.&lt;br/&gt; <br />6. Menad&#380;er wybiera zakres dat do generowania raportu.&lt;br/&gt; <br />7. System generuje i wy&#347;wietla raport.&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario415" onclick="parent.toggleDiv('detailsDIVScenario415','DetailsImageScenario415')" />Exceptions:				<div id="detailsDIVScenario415" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">3a. Nieprawidłowe dane (at 1)<br /></div>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Nieprawidłowe dane</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario417" onclick="parent.toggleDiv('detailsDIVScenario417','DetailsImageScenario417')" />Details:
+							<div id="detailsDIVScenario417" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario417" onclick="parent.toggleDiv('stepDIVScenario417','StepImageScenario417')" />Steps:
+							<div id="stepDIVScenario417" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. System przy b&#322;&#281;dnej weryfikacji danych do logwania wraca do widoku logowania i wy&#347;wietla komunikat, jakie dane s&#261; b&#322;&#281;dne.&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">Generuj raport sprzedażowy</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">REQ002:Żmuda Generowanie raportów sprzedażowych</td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">REQ001:Żmuda Zarządzanie funkcjami administracyjnymi</td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA261.htm">Zapisz raport</a></td>
+					<td width="10%" class="TableRow" valign="top">Collaborate</td>
+					<td width="10%" class="TableRow" valign="top">Extends</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

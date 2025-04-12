@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="6059C509-1" name="ComicVerse-CRC" version="1.0" notes="ComicVerse-CRC"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Struktura" notes="" cx="0" cy="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="ComicVerse-CRC::CRC(UML::Class)" type="" description="" unit="" values="" default="Karta CRC"/>
+					<Tag name="ComicVerse-CRC::Odpowiedzialno&#347;&#263;(UML::Operation)" type="" description="" unit="" values="" default="Odpowiedzialno&#347;&#263; karty"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Zachowanie" notes="" cx="0" cy="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="ComicVerse-CRC::Komunikat(UML::Operation)" type="" description="" unit="" values="" default="Komunikat"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

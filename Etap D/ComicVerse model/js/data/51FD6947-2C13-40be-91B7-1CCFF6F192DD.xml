@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.2.3.3:1", "", "Obsluga raportu sprzedazowego", "EARoot/EA1/EA2/EA3/EA3/EA153.htm", "175.png", "450", "0", "", "Logical diagram0","{44D3B060-AD3B-4acf-8733-778E11EDF1DD}");
+tocTab[tocTab.length] = new Array("0.1.2.3.3:2", "", "«Type» Generator raportów sprzedażowych", "EARoot/EA1/EA2/EA3/EA3/EA156.htm", "5.png", "E2607", "0", "", "Class0","{35CEEA7C-95DA-44c2-B034-2FAF692A2F0C}");
+tocTab[tocTab.length] = new Array("0.1.2.3.3:3", "", "«Type» Menadżer", "EARoot/EA1/EA2/EA3/EA3/EA157.htm", "5.png", "E2608", "0", "", "Class0","{6D7E5C09-E5F8-4b11-9EAD-B01169A0DC73}");
+tocTab[tocTab.length] = new Array("0.1.2.3.3:4", "", "«Type» Osoba", "EARoot/EA1/EA2/EA3/EA3/EA158.htm", "5.png", "E2609", "0", "", "Class0","{9E5D8C8A-0346-49ae-BFF4-F10534C9C7F3}");
